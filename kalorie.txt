@@ -1,0 +1,435 @@
+agrest 41.0
+ananas 54.0
+ananas w syropie 84.0
+arbuz 36.0
+awokado 160.0
+baklazan 21.0
+baleron 244.0
+banan 95.0
+banan suszony 360.0
+bazylia swieza 23.0
+biala rozdkiew 14.0
+bialko jaja 49.0
+bob 66.0
+bocwina 17.0
+boczek wedzony 477.0
+botwinka 17.0
+brokul 27.0
+brukselka 37.0
+brzoskwinia 46.0
+brzoskwinia w syropie 73.0
+bulka owsiana 304.0
+bulka pszenna zwykla 273.0
+bulka sojowa 315.0
+bulka tarta 347.0
+bulka wroclawska 294.0
+burak 38.0
+cebula 30.0
+cebula czerwona 30.0
+cebula konserowa 52.0
+cebula dymka 30.0
+chili 40.0
+chleb chrupki 353.0
+chleb pszenny 257.0
+chleb zwykly 248.0
+chleb zytni pelnoziarnisty 225.0
+chleb zytni razowy 213.0
+chrzan 67.0
+ciecierzyca konserwowa 127.0
+cieciorka 364.0
+cielecina lopatka 106.0
+cielecina sznyclowka 105.0
+cielecina udziec 108.0
+cukier 405.0
+cukier brazowy 380.0
+cukier puder 387.0
+cukinia 15.0
+curry 325.0
+cwikla 40.0
+cykoria 21.0
+cynamon 247.0
+cytryna 36.0
+czekolada gorzka 554.0
+czeresnie 61.0
+czerwona fasola konserwowa 87.0
+czosnek 146.0
+czosnek granulowany 146.0
+daktyle suszone 277.0
+dorsz filet bez skory 70.0
+dynia 28.0
+dzem jagodowy niskoslodzony 153.0
+dzem sliwkowy niskoslodzony 153.0
+dzem truskawkowy niskoslodzony 153.0
+dzem wisniowy niskoslodzony 154.0
+estragon 295.0
+fasola biala suche nasiona 288.0
+fasola cieta, konserwowa, bez zalewy 16.0
+fasola szparagowa 27.0
+figi suszone 290.0
+filet z makreli w sosie pomidorowym 150.0
+fladra swieza 83.0
+grahamka 252.0
+granat 83.0
+grejpfrut 36.0
+grejpfrut czerwony 42.0
+groch suche nasiona 293.0
+groszek ptysiowy 476.0
+groszek zielony 75.0
+groszek zielony konserowowy 63.0
+gruszka 54.0
+grzyby suszone 284.0
+halibut swiezy 98.0
+herbata bez cukru 0.0
+imbir 347.0
+jablka suszone 238.0
+jablko 46.0
+jagody 45.0
+jajko kurze 139.0
+jajko przepiorcze 158.0
+jarmuz 29.0
+jogurt naturalny 2% 60.0
+kabanos 326.0
+kabanos drobiowy 247.0
+kajzerka 296.0
+kakao w proszku 16% 448.0
+kalafior 22.0
+kalarepa 29.0
+kapary 23.0
+kapusta biala 29.0
+kapusta czerwona 27.0
+kapusta kwaszona 12.0
+kapusta pekinska 12.0
+kapusta wloska 38.0
+kardamon 311.0
+karp swiezy 110.0
+kasza gryczana 336.0
+kasza jaglana 346.0
+kasza peczak 334.0
+kasza perlowa 327.0
+kasza kukurydziana 337.0
+kasza manna 348.0
+kasza jeczmienna 195.0
+kasza kuskus 112.1
+kasza bulgur 342.0
+kawa bez cukru 2.0
+keczup 93.0
+kefir 2% 51.0
+kielbasa delikatesowa z kurczaka 109.0
+kielbasa domowa 320.0
+kielbasa jalowcowa z kurczaka 236.0
+kielbasa kanapkowa z kurczaka 179.0
+kielbasa lubuska 249.0
+kielbasa parowkowa 323.0
+kielbasa podlaska z kurczaka 232.0
+kielbasa podsuszana z kurczaka 162.0
+kielbasa podwawelska 247.0
+kielbasa rzeszowska 203.0
+kielbasa slaska 210.0
+kielbasa sucha krakowska 323.0
+kielbasa sucha mysliwska 291.0
+kielbasa szynkowa z kurczaka 110.0
+kielbasa torunska 263.0
+kielbasa zwyczajna 209.0
+kielbasa zywiecka 315.0
+kielbaski bawarskie 308.0
+kielki bambusa 20.0
+kielki brokula 57.0
+kielki buraka 37.0
+kielki fasoli mung 29.0
+kielki lucerny 23.0
+kielki rzodkiewki 43.0
+kielki slonecznika 31.0
+kielki soczewicy 119.0
+kielki soi 141.0
+kiwi 56.0
+kminek 333.0
+kolendra 279.0
+komosa ryzowa 334.0
+koncentrat pomidorowy 30% 92.0
+koperek 26.0
+kostka rosolowa 300.0
+krewetka tygrysia 92.0
+kukurydza kolba 110.0
+kukurydza konserwowa 102.0
+kumin 429.0
+kurki 32.0
+kurkuma 354.0
+limonka 30.0
+liscie miety 77.0
+lisc laurowy 313.0
+losos smazony 380.0
+losos swiezy 201.0
+losos wedzony 162.0
+magii 17.0
+majeranek 271.0
+majonez 714.0
+mak 478.0
+maka kukurydziana 337.0
+maka pszenna rozne typy srednio 330.0
+makaron bezjajeczny 364.0
+makaron czterojajeczny 391.0
+makaron dwujajeczny 373.0
+makaron farfalline pelnoziarnisty 351.0
+makaron penne pelnoziarnisty 345.0
+makaron rurki 350.0
+makaron ryzowy 356.0
+makaron spaghetti razowy 354.0
+maka ryzowa 348.0
+maka zytnia rozne typy srednio 320.0
+makrela swieza 181.0
+makrela wedzona 221.0
+maliny 29.0
+mandarynki 42.0
+mango 67.0
+marchewka 27.0
+marchewka z groszkiem 39.0
+marchewka mini 41.0
+maslanka 0.5% 37.0
+maslo ekstra 735.0
+maslo klarowane 883.0
+maslo orzechowe 634.0
+maslo smietankowe 659.0
+margaryna 716.0
+melon 36.0
+mieszanka mak 351.0
+mieszanka warzywna z kurczakiem, ryzem i grzybami chinskimi 87.0
+mieszanka ziol 1.0
+mieta pieprzowa 77.0
+migdaly 572.0
+miks warzyw 38.0
+mintaj swiezy 73.0
+miod pszczeli 324.0
+mleko kokosowe 203.0
+mleko kozie 2% 68.0
+mleko owcze 107.0
+mleko sojowe 41.0
+mleko spozywcze 2% 51.0
+mleko w proszku pelne 479.0
+mleko zageszczone nieslodzone 131.0
+mleko zageszczone slodzone 326.0
+morele 47.0
+morele suszone 284.0
+morszczuk swiezy 89.0
+mus jablkowy 124.0
+musli z orzechami i rodzynkami 375.0
+musli z suszonymi owocami 325.0
+musztarda 162.0
+napoj kokosowy 30.0
+nasiona chia 490.0
+natka pietruszki 41.0
+nektarynka 41.0
+ocet balsamiczny 116.0
+ocet jablkowy 24.0
+ocet winny 20.0
+ogorek 13.0
+ogorek kiszony 11.0
+ogorek konserowowy 24.0
+olej kokosowy 900.0
+olej rzepakowy 884.0
+olej slonecznikowy 884.0
+oliwa z oliwek 882.0
+oliwki czarne 125.0
+oliwki zielone marynowane 125.0
+oregano 265.0
+orzechy arachidowe 560.0
+orzechy brazylijskie 656.0
+orzechy laskowe 640.0
+orzechy piniowe 673.0
+orzechy pistacjowe 589.0
+orzechy wloskie 645.0
+orzechy ziemne 603.0
+ostra papryka 0.4
+otreby pszenne 185.0
+paluszki krabowe 113.0
+papaja 41.0
+papryka czerwoma 28.0
+papryka czerwona konserwowa 30.0
+papryka sucha 289.0
+papryka zielona 18.0
+papryka żolta 27.0
+pasternak 57.0
+pasztet pieczony 390.0
+pasztet podlaski z kurczaka 228.0
+pasztet z kurczaka 214.0
+pestki dyni 556.0
+pestki slonecznika 561.0
+pesto 340.0
+pieczarki 17.0
+pieczarki marynowane 19.0
+pieczeń wolowa 117.0
+pieczona poledwica wolowa 168.0
+pieczywo tostowe 305.0
+pieczywo tostowe graham 273.0
+pieczwo wasa 370.0
+pieprz bialy 296.0
+pieprz czarny 318.0
+pieprz czerowny 318.0
+piers indyka bez skory 84.0
+piers kurczaka bez skory 99.0
+pietruszka 38.0
+pikle konserowoe 62.0
+platki jaglane 361.0
+plaki jeczmienne 355.0
+platki kukurydziane 363.0
+platki migdalowe 581.0
+platki owsiane 366.0
+platki pszenne 351.0
+platki ryzowe 344.0
+platki zytnie 343.0
+podudzie indyka bez skory 100.0
+poledwica lososiowa 106.0
+poledwica luksusowa 177.0
+poledwica sopcoka 165.0
+poledwica wolowa 113.0
+poledwica z indyka 105.0
+poledwica z kurczaka 93.0
+pomarancza 44.0
+pomidor(zwykly/koktajlowy) 15.0
+pomidory z puszki 23.0
+por 24.0
+porzeczki biale 33.0
+porzeczki czarne 35.0
+porzeczki czerwone 31.0
+powidla sliwkowe 214.0
+poziomki 33.0
+proszek do pieczenia 97.0
+przecier pomidorowy 25.0
+przyprawa do drobiu 307.0
+przyprawa do ryb 307.0
+jarzynka 90.0
+pstrag strumieniowy swiezy 97.0
+pstrag teczowy swiezy 160.0
+pstrag wedzony 117.0
+pumpernikiel 240.0
+rabarbar 9.0
+rodzynki 277.0
+rostbef wolowy 152.0
+rzmaryn 331.0
+rukola 25.0
+ryz bialy 344.0
+ryz brazowy 322.0
+rzepa 26.0
+rzezucha 32.0
+rzodkiweka 14.0
+salami 540.0
+salata 14.0
+salata lodowa 14.0
+salata rzymska 17.0
+sandacz swiezy 84.0
+sardynki w oleju 221.0
+sardynki w pomidorach 162.0
+shcab pieczony 291.0
+seler konserowowy 17.0
+seler korzeniowy 21.0
+seler naciowy 13.0
+ser brie pelnotlusty 329.0
+ser camembert pelotlusty 291.0
+ser cheddar pelnotlusty 391.0
+ser edamski pelnotlusty 313.0
+serek homogenizowany 161.0
+serek twarogowy ziarnisty 101.0
+seek fromage naturalny 379.0
+ser ementaler pelnotlusty 380.0
+ser gouda pelnotlusty 316.0
+ser kozi 388.0
+ser mascarpone 394.0
+ser mozarella 254.0
+ser mozarella light 157.0
+ser parmezan 452.0
+ser radamer 339.0
+ser salami pelnotlusty 351.0
+ser topiony 298.0
+ser twarogowy chudy 99.0
+ser twarogowy poltlusty 133.0
+ser twarogowy tlusty 175.0
+ser tylzycki 353.0
+ser feta 215.0
+sezna 632.0
+siemie lniane 534.0
+skorka cytrynowa 120.0
+skrobia kukurydziana 353.0
+skronia ziemniaczna 343.0
+sledz solony 217.0
+sledz w oleju 301.0
+sliwka 45.0
+sliwki suszone 267.0
+slodki ziemniak 86.0
+smietana 12% 133.0
+smietana 18% 184.0
+smietnaka 30% 287.0
+soczewica czerwona 327.0
+soja 48.0
+sok ananasowy 48.0
+sok brzoskwinia pomarancza 32.0
+sok buraczany 34.0
+sok cytryowy 30.0
+sok egzotyczny 57.0
+sok grejpfrutowy 40.0
+sok jablkowy 42.0
+sok marchew brzoskwinia 44.0
+sok typu kubus 44.0
+sok marchwiowy 43.0
+sok pomarancza grejpfrut 43.0
+sok pomaranczowy 43.0
+sok pomidorowy 14.0
+sok wieloowocowy 45.0
+sok welowarzywny 25.0
+sol 0.0
+sola swieza 83.0
+sos sojowy 0.0
+skorka pomaranczowa 120.0
+suszone pomidory 215.0
+syrop klonowy 265.0
+szafran 310.0
+szalwia 315.0
+szczaw 21.0
+szczupak swiezy 82.0
+szczypiorek 29.0
+szparagi 18.0
+szpinak 16.0
+szponder wolowy 217.0
+szprotka wedzona 243.0
+szynka delikatesowa z kurczaka 123.0
+szynka kanapkowa 102.0
+szynka parmenska 135.0
+szynka wiejska 253.0
+szynka wieprzowa gotowana 233.0
+szynka wolowa gotowana 107.0
+szynka z indyka 84.0
+szynka z kurczaka 98.0
+szynkowka wieprzowa 191.0
+szynkowka wolowa 85.0
+tofu 112.0
+truskawki 28.0
+tunczyk w oleju 190.0
+tunczyk w sosie wlasnym 96.0
+tymianek 276.0
+udko kurczaka bez skory 125.0
+udko kurczaka ze skora 158.0
+udziec indyka bez skory 104.0
+udziec indyka ze skora 131.0
+wafle ryzowe 390.0
+watrobka kurczaka 136.0
+wedzona piers kurczaka 107.0
+wedzonka wolowa gotowana 102.0
+wieprzowa karkowka 267.0
+wieprzowa lopatka 257.0
+wieprzowy schab 174.0
+wieprzowe zeberka 321.0
+wino biale wytrawne 66.0
+wino biale polwytrawne 81.0
+wino biale slodkie 95.0
+wino czerwone 68.0
+winogorna 69.0
+wiorki kokosowe 606.0
+wisnie 47.0
+wloszczyzna 25.0
+woda 0.0
+zelatyna 343.0
+ziele angielskie 263.0
+ziemniaki 77.0
+ziemnaiki mlode 69.0
+ziola prowansalskie 1.0
+zoltko jaja kurzego 314.0
+zurawina do mies 161.0
+zurawina suszona 320.0

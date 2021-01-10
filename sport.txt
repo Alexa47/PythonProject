@@ -1,0 +1,96 @@
+aerobik 364.0
+aqua aerobik 385.0
+badminton 399.0
+bieganie wolne 700.0
+bieganie szybkie 1000.0
+sprint 1204.0
+bilard 168.0
+boks 651.0
+chodzenie wolne 168.0
+chodzenie szybkie 315.0
+chodzenie po górach 371.0
+czytanie 38.0
+golf 315.0
+gotowanie 105.0
+grabienie trawnika 280.0
+hula hop 280.0
+jazda konna 280.0
+jazda na deskorolce 371.0
+jazda na łyzwach 490.0
+jazda na nartach biegówkach 574.0
+jazda na nartach zjazdowych 511.0
+jazda na rolkach 399.0
+jazda na rowerze wolno 300.0
+jazda na rowerze umiarkowane tempo 560.0
+jazda na roweje powyżej 30km/h 1106.0
+jazda an snowboardzie 490.0
+joga 175.0
+judo 700.0
+kajakarstwo wolne 196.0
+kajakarstwo umaiarkowane 406.0
+kajakarstwo szybkie 875.0
+karate 700.0
+kitesurfing 770.0
+kolarstwo górskie 595.0
+koszenie trawnika 315.0
+koszykówka 560.0
+kręgle 210.0
+leżenie 35.0
+łowienie ryb 210.0
+malowanie 399.0
+mycie okien 231.0
+mycie samochodu 308.0
+nordic walking średnie tempo 392.0
+nurkowanie z rurką 350.0
+odkurzanie 315.0
+odśnieżanie 420.0
+pilates 210.0
+piłka nożna 630.0
+piłka ręczna 840.0
+ping pong 280.0
+pływanie kraulem umiarkowane tempo 581.0
+pływanie stylem grzbietowym umiarkowane tempo 500.0
+pływanie stylem klasycznym wolno 371.0
+pływanie stylem klasycznym szybko 721.0
+płwanie stylem motylkowym 966.0
+podciąganie umiarkowane tempo 266.0
+podnoszeie cięzarów 420.0
+praca w ogrodzie 350.0
+prasowanie 140.0
+przysiady 350.0
+robienie zakupów 161.0
+rzutki 161.0
+siatkówka 280.0
+siatkówka plażowa 560.0
+siatkówka wodna 350.0
+siłownia średnio intensywanie 490.0
+skakanka spokojnie 574.0
+slow jogging 385.0
+spacer 245.0
+spinning 595.0
+srzątanie domu 245.0
+squash 840.0
+step aerobik 525.0
+steper 490.0
+surfing 210.0
+śpiewanie 105.0
+taniec salsa 315.0
+tanic brzucha 315.0
+taniec flamenco 315.0
+taniec hip-hop 385.0
+taniec jazzowy 476.0
+taniec na rurze 560.0
+taniec swing 315.0
+taniec towarzyski 210.0
+taniec współczesny 336.0
+tenis 560.0
+tenis ziemny 616.0
+treneng rozciągający 161.0
+trening z ketlami 560.0
+trening z piłką gimnastyczną 196.0
+wchodzenie po schodach 308.0
+wspinaczka 560.0
+wspinaczka skałkowa 756.0
+zmywanie naczyń 140.0
+zumba 476.0
+żeglarstwo rekreacyje 231.0
