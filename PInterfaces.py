@@ -1,6 +1,9 @@
 import tkinter
+from calendar import Calendar
 from tkinter import ttk, SUNKEN
 from tkcalendar import *
+from matplotlib import pyplot as plt
+import numpy as np
 
 
 from PActivity import *
@@ -39,8 +42,9 @@ class MainWindow():
         self.btnShoppingList=tkinter.Button(self.frameButtons, text="Lista zakupów", command=self.shoppingListWindow, bg="plum2", fg="navy", font=("Helvetica", 11), width=16, borderwidth=5, relief=tkinter.RIDGE).grid(row=2, column=1)
         self.btnBalance=tkinter.Button(self.frameButtons, text="Bilans kaloryczny", command=self.balanceDispleyWindow, bg="plum2", fg="navy", font=("Helvetica", 11), width=16, borderwidth=5, relief=tkinter.RIDGE).grid(row=3, column=1)
         self.btnDate=tkinter.Button(self.frameButtons, text="Przejdź do daty", command=self.chooseDateWindow, bg="plum2", fg="navy", font=("Helvetica", 11), width=16, borderwidth=5, relief=tkinter.RIDGE).grid(row=5, column=1)
-        self.btnExit=tkinter.Button(self.frameButtons, text="Wyjdź", command=self.quit, bg="plum2", fg="navy", font=("Helvetica", 11), width=16, borderwidth=5, relief=tkinter.RIDGE).grid(row=6, column=1)
+        self.btnExit=tkinter.Button(self.frameButtons, text="Wyjdź", command=self.quit, bg="plum2", fg="navy", font=("Helvetica", 11), width=16, borderwidth=5, relief=tkinter.RIDGE).grid(row=7, column=1)
         self.btnCount=tkinter.Button(self.frameButtons, text="Wydatek energetyczny", command=self.countBalanceWindow, bg="plum2", fg="navy", font=("Helvetica", 11), width=16, borderwidth=5, relief=tkinter.RIDGE).grid(row=4, column=1)
+        self.btnStat=tkinter.Button(self.frameButtons, text="Statystyka", command=self.statisticsWindow, bg="plum2", fg="navy", font=("Helvetica", 11), width=16, borderwidth=5, relief=tkinter.RIDGE).grid(row=6, column=1)
 
     def addEventWindow(self):
         self.master.withdraw()
@@ -80,6 +84,14 @@ class MainWindow():
         toplevel.geometry("800x400")
         toplevel.config(bg="LemonChiffon2")
         app=BalanceCountWindow(toplevel)
+
+    def statisticsWindow(self):
+        self.master.withdraw()
+        toplevel = tkinter.Toplevel(self.master)
+        toplevel.geometry("500x300")
+        toplevel.config(bg="thistle1")
+        app = StatisticSelectWindow(toplevel)
+
 
 class AddEventWindow:
     def __init__(self, master):
@@ -303,15 +315,16 @@ class ManualSetWindow():
         self.labelKcal=tkinter.Label(master, text="kcal", bg="azure", fg="purple4",
                                      font=("Helvetica", 12)).grid(row=2, column=2, pady=10)
 
-        self.btnOk=tkinter.Button(master, text="OK", command=lambda:[self.addCalories(float(self.e1.get())), self.back()], bg="azure", fg="purple4", font=("Helvetica", 11), width=5,borderwidth=5, relief=tkinter.RIDGE).grid(row=3, column=1)
+        self.btnOk=tkinter.Button(master, text="OK", command=lambda:[self.addCalories(self.e1.get()), self.back()], bg="azure", fg="purple4", font=("Helvetica", 11), width=5,borderwidth=5, relief=tkinter.RIDGE).grid(row=3, column=1)
         self.btnExit=tkinter.Button(master, text="Wyjdź", command=self.back, bg="azure", fg="purple4", font=("Helvetica", 11), borderwidth=5, relief=tkinter.RIDGE, width=5).grid(row=3, column=2)
 
     def addCalories(self, amount):
         try:
+            famount=float(amount)
             e = EnergyBalance()
-            e.setCalAmount(amount)
+            e.setCalAmount(famount)
             inf.saveBalance(e)
-            inf.saveEaten(amount)
+            inf.saveEaten(famount)
         except:
             print("Błędne dane")
 
@@ -431,13 +444,16 @@ class BalanceCountWindow():
         self.labelBal=tkinter.Label(master, font="Helvetica", bg="LemonChiffon2")
         self.labelBal.grid(row=7, column=1)
 
-        self.buttonOk=tkinter.Button(master, text="Oblicz", font="Helvetica", bg="LemonChiffon3", borderwidth=5, relief=tkinter.RIDGE, command=lambda:self.count(self.variable1.get(), float(self.e1.get()), float(self.e2.get()), float(self.e3.get()), self.variable2.get())).grid(row=6, column=1)
+        self.buttonOk=tkinter.Button(master, text="Oblicz", font="Helvetica", bg="LemonChiffon3", borderwidth=5, relief=tkinter.RIDGE, command=lambda:self.count(self.variable1.get(), self.e1.get(), self.e2.get(), self.e3.get(), self.variable2.get())).grid(row=6, column=1)
         self.buttonBack=tkinter.Button(master, text="Wyjdź", font="Helvetica", bg="LemonChiffon3", borderwidth=5, relief=tkinter.RIDGE, command=lambda :self.back()).grid(row=6, column=2)
 
     def count(self, gender, weight, height, age, activity):
         try:
+            fheight=float(height)
+            fweight=float(weight)
+            fage=float(age)
             if(gender=="mężczyzna"):
-                balance=9.99*weight+6.25*height-4.92*age+5
+                balance=9.99*fweight+6.25*fheight-4.92*fage+5
                 if(activity==act[0]):
                     balance=1.2 * balance
                 elif(activity==act[1]):
@@ -449,7 +465,7 @@ class BalanceCountWindow():
                 else:
                     balance=1.9 * balance
             else:
-                balance = 9.99 * weight + 6.25 *height - 4.92 * age
+                balance = 9.99 * fweight + 6.25 *fheight - 4.92 * fage
                 balance-=161
                 if (activity == act[0]):
                     balance = 1.2 * balance
@@ -473,6 +489,43 @@ class BalanceCountWindow():
         toplevel.config(bg="wheat1")
         toplevel.resizable(width=None, height=None)
         app = MainWindow(toplevel)
+
+class StatisticSelectWindow:
+    def __init__(self, master):
+        self.master=master
+        self.labelAsk=tkinter.Label(master, text="Podaj liczbę dni do statystyki", font=("Helvetica", 24), bg="thistle1", borderwidth=5, relief=tkinter.RIDGE).grid(row=1, column=1, pady=10)
+        self.e1=tkinter.Entry(master)
+        self.e1.grid(row=2, column=1, pady=10)
+        self.btnOk=tkinter.Button(master, text="OK", font=("Helvetica", 10),width=16,bg="thistle3",borderwidth=5, relief=tkinter.RIDGE ,command=lambda:self.getTables(self.e1.get())).grid(row=3, column=1)
+        self.labelStat1=tkinter.Label(master, font=("Helvetica", 24), bg="thistle1")
+        self.labelStat1.grid(row=4, column=1)
+        self.labelStat2=tkinter.Label(master, font=("Helvetica", 24), bg="thistle1")
+        self.labelStat2.grid(row=5, column=1)
+        self.btnBack=tkinter.Button(master, text="Wyjdź", font=("Helvetica", 10),width=16,bg="thistle3",borderwidth=5, relief=tkinter.RIDGE ,command=self.back).grid(row=6, column=1)
+
+    def getTables(self, numberOfDays):
+        dates, pr, sp, xnum=inf.getStatistics(numberOfDays)
+        indices=range(len(pr))
+        width=np.min(np.diff(indices))/3.
+        fig=plt.figure()
+        ax=fig.add_subplot(111)
+        ax.bar(indices-width/2. ,pr, width, color='b',label='Przyjęto')
+        ax.bar(indices + width / 2., sp, width, color='r',label='Spalono')
+        plt.title(dates)
+        plt.legend(loc="upper left")
+        text1="Średnio przyjęto: "+str(np.average(list(pr)))
+        text2 = "Średnio spalono: " + str(np.average(list(sp)))
+        self.labelStat1.config(text=text1)
+        self.labelStat2.config(text=text2)
+        plt.show()
+
+    def back(self):
+        self.master.withdraw()
+        toplevel = tkinter.Toplevel(self.master)
+        toplevel.config(bg="wheat1")
+        toplevel.resizable(True, True)
+        app = MainWindow(toplevel)
+
 
 
 

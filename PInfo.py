@@ -153,6 +153,12 @@ class Info:
         sl.setList(self.readShoppingList())
         savedDate=self.getSavedDate()
         if(self.checkDate(savedDate)==False):
+            temp=self.readListFromFile('stat.txt')
+            sp=self.readListFromFile('spalono.txt')
+            pr=self.readListFromFile('przyjeto.txt')
+            record=savedDate+"-"+pr[1]+"-"+sp[1]
+            temp.append(record)
+            self.writeListToFile(temp, 'stat.txt')
             eb.clear()
             self.writeToFile(eb, sl)
 
@@ -233,6 +239,31 @@ class Info:
                 f.close()
             except:
                 print("Niepoprawna nazwa pliku")
+
+    def getStatistics(self, numberOfDays):
+        self.prepareFile('stat.txt')
+        data=self.readListFromFile('stat.txt')
+        try:
+            if(int(numberOfDays)>len(data)):
+                print("Przekroczono zakres")
+                return
+            else:
+                dates=()
+                eaten=()
+                burnt=()
+                countertable=()
+                counter=0
+                for elem in reversed(data):
+                    if(counter<int(numberOfDays)):
+                        temp=elem.split("-")
+                        dates=dates+(temp[0],)
+                        eaten=eaten+(float(temp[1]),)
+                        burnt=burnt+(float(temp[2][0:len(temp[2])-1]),)
+                        countertable=countertable+(counter, )
+                        counter+=1
+            return (dates, eaten, burnt, countertable)
+        except:
+            print("Błędne dane")
 
 
 
